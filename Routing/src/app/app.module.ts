@@ -9,6 +9,8 @@ import { UsersComponent } from './users/users.component';
 
 import {RouterModule, Routes } from '@angular/router';
 import { ProductComponent } from './product/product.component';
+
+
 const appRoutes :Routes=[
   {
     path:'',
@@ -26,6 +28,7 @@ const appRoutes :Routes=[
     path:'services',
     component:ServicesComponent
   },
+ 
 ]
 
 @NgModule({
@@ -34,7 +37,8 @@ const appRoutes :Routes=[
     HomeComponent,
     ServicesComponent,
     UsersComponent,
-    ProductComponent
+    ProductComponent,
+    
   ],
   imports: [
     BrowserModule,
